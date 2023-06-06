@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="imagens/logo2.jpg" type="image/x-icon">
+    <title>Questoes</title>
+</head>
+
+<body>
+    <header class="tit">
+        <div class="imagem">
+            <img class="logo" src="imagens/logo.png" alt="Logo">
+        </div>
+
+        <h1 class="titulo"> Questões </h1>
+
+        <div class="usuario">
+            <img class="usu" src="imagens/semfoto.png" alt="Usuario">
+            <div class="info">
+                <span><b>Nome:</b> Usuario1</span>
+                <span><b>Email:</b> usuario1@gmail.com</span>
+            </div>
+            <button onclick="sair()">Sair</button>
+        </div>
+
+    </header>
+
+    <h2>Como funciona as provas ?</h2>
+    <p>
+        No nosso site, o processo de realização das provas é simples e intuitivo. Após selecionar a matéria desejada,
+        basta clicar no botão "Começar Prova" para entrar na página onde as questões serão apresentadas.
+
+        Nessa página, você encontrará uma série de perguntas cuidadosamente elaboradas por especialistas no assunto.
+        Cada questão será exibida de forma clara e organizada, permitindo que você se
+        concentre totalmente na resolução.
+    </p>
+    <p>
+        Uma das vantagens do nosso site é a correção automática das provas. Assim que você finalizar a questão, o
+        sistema
+        já irá corrigir automaticamente para você, ai você ja confere a sua resposta. Portanto, aproveite a facilidade
+        de uso do nosso site e comece a resolver as provas de forma prática e eficiente. Prepare-se para encarar os
+        desafios do vestibular, treine suas habilidades e esteja pronto para o sucesso. Estamos aqui para apoiar você em
+        cada etapa desse processo, fornecendo uma plataforma que simplifica a preparação e ajuda a alcançar excelentes
+        resultados.
+    </p>
+    <div class="conteiner">
+        <div class="conteiner_1">
+            <h2> Provas </h2>
+            <div class="materia">
+                <input type="button" class="mat" value="Matemática" onclick="mostrar('matematica')">
+                <div class="mostpro" id="matematica">
+                    <h3> O que você irá ver nesta prova ? </h3>
+                    <ul>
+                        <li> Funções de 1º e 2º grau </li>
+                        <li> Geometria </li>
+                        <li> Porcentagem </li>
+                        <li> Estatística e probabilidade </li>
+                    </ul>
+                    <button onclick="comecar('mat')">Começar Prova</button>
+                </div>
+            </div>
+            <br>
+
+            <div class="materia">
+                <input type="button" class="mat" value="Português" onclick="mostrar('portugues')">
+                <div class="mostpro" id="portugues">
+                    <h3> O que você irá ver nesta prova ? </h3>
+                    <ul>
+                        <li> Interpretação de texto </li>
+                        <li> Figuras de linguagem. </li>
+                        <li> Gêneros textuais</li>
+                        <li> Variação linguística </li>
+                    </ul>
+                    <button onclick="comecar('port')">Começar Prova</button>
+                </div>
+            </div>
+            <br>
+
+            <div class="materia">
+                <input type="button" class="mat" value="Ciências" onclick="mostrar('ciencias')">
+                <div class="mostpro" id="ciencias">
+                    <h3> O que você irá ver nesta prova ? </h3>
+                    <ul>
+                        <li> Ecologia </li>
+                        <li> Genética </li>
+                        <li>Fisiologia animal</li>
+                        <li> Parasitologia </li>
+                    </ul>
+                    <button onclick="comecar('cie')">Começar Prova</button>
+                </div>
+            </div>
+            <br>
+
+            <div class="materia">
+                <input type="button" class="mat" value="História" onclick="mostrar('historia')">
+                <div class="mostpro" id="historia">
+                    <h3> O que você irá ver nesta prova ? </h3>
+                    <ul>
+                        <li> Segundo Reinado </li>
+                        <li> Primeira República </li>
+                        <li> Período colonial</li>
+                        <li> Era Vargas </li>
+                    </ul>
+                    <button onclick="comecar('hist')">Começar Prova</button>
+                </div>
+            </div>
+            <br>
+
+            <div class="materia">
+                <input type="button" class="mat" value="Geografia" onclick="mostrar('geografia')">
+                <div class="mostpro" id="geografia">
+                    <h3> O que você irá ver nesta prova ? </h3>
+                    <ul>
+                        <li> Questões ambientais </li>
+                        <li> Urbanização </li>
+                        <li> Globalização </li>
+                        <li> Geografia agrária </li>
+                    </ul>
+                    <button onclick="comecar('geo')">Começar Prova</button>
+                </div>
+            </div>
+            <br>
+
+            <div class="materia">
+                <input type="button" class="mat" value="Inglês" onclick="mostrar('ingles')">
+                <div class="mostpro" id="ingles">
+                    <h3> O que você irá ver nesta prova ? </h3>
+                    <ul>
+                        <li> Tempos verbais em inglês </li>
+                        <li> Voz passiva em inglês </li>
+                        <li> Pronomes pessoais </li>
+                        <li> Linking words</li>
+                    </ul>
+                    <button onclick="comecar('ing')">Começar Prova</button>
+                </div>
+            </div>
+            <br>
+        </div>
+
+        <div class="conteiner_2">
+            <h2> Dicas de estudo </h2>
+            <p>
+                Planeje seu tempo: Crie um cronograma de estudo semanal ou mensal, reservando períodos específicos para
+                utilizar o site e realizar as provas. Estabeleça metas realistas e distribua seu tempo de forma
+                equilibrada entre as diferentes disciplinas..
+            </p>
+            <p>
+                Varie as formas de estudo: Além de fazer as provas no site, utilize outros recursos, como livros,
+                resumos, videoaulas e materiais complementares. Essa variedade ajudará a consolidar o conhecimento e a
+                abordar os conteúdos de diferentes perspectivas.
+            </p>
+
+            <p>
+                Faça anotações e revise: Enquanto estuda e faz as provas, faça anotações dos pontos importantes,
+                fórmulas, conceitos-chave e erros frequentes. Reserve tempo para revisar essas anotações periodicamente,
+                reforçando o aprendizado e fixando o conteúdo na memória.
+            </p>
+            <p>
+                Pratique regularmente: Utilize o site regularmente para fazer as provas e exercícios disponíveis. A
+                prática
+                constante é fundamental para o aprimoramento das habilidades e para o aumento da familiaridade com o
+                formato
+                e estilo das questões.
+            </p>
+
+            <p>
+                Mantenha-se motivado: A preparação para o vestibular pode ser desafiadora, mas lembre-se constantemente
+                dos seus objetivos e da importância desse processo. Mantenha-se motivado, estabeleça recompensas para
+                cada meta alcançada e busque um equilíbrio entre os estudos e momentos de descanso.
+            </p>
+
+            <p>
+                Cuide do seu bem-estar: Lembre-se de que uma boa saúde física e mental é fundamental para o sucesso nos
+                estudos. Certifique-se de dormir o suficiente, alimentar-se adequadamente, praticar atividades físicas e
+                reservar momentos de lazer para descansar e relaxar.
+            </p>
+        </div>
+    </div>
+
+    <h2> Confiabilidade nas questões </h2>
+    <p>
+        Garantimos aos nossos usuários que todo o conteúdo disponível em nosso site é cuidadosamente selecionado a
+        partir de vestibulares anteriores. Nosso objetivo é fornecer materiais de estudo confiáveis e relevantes, que
+        reflitam fielmente o nível de dificuldade e o formato das provas reais.
+    </p>
+    <p>
+        Ao utilizar nosso site, você pode ter a certeza de que está se preparando com base em materiais de qualidade,
+        que seguem rigorosamente os critérios e as diretrizes dos exames vestibulares. Nossas provas são desenvolvidas
+        levando em consideração os conteúdos programáticos e as competências exigidas pelos principais vestibulares,
+        permitindo que você se prepare de maneira abrangente e eficaz.
+    </p>
+    <p>
+        Nossa prioridade é fornecer aos estudantes uma plataforma confiável e de qualidade, que os ajude a alcançar seus
+        objetivos acadêmicos. Portanto, tenha a tranquilidade de que, ao utilizar nosso site, você está se preparando
+        com base em conteúdos autênticos e relevantes, diretamente relacionados aos vestibulares anteriores.
+    </p>
+
+    <footer>
+        <input type="button" id="esq" class="home" value="Home" onclick="home()">
+        <input type="button" id="dir" class="est" value="Estatisticas" onclick="est()">
+    </footer>
+
+
+    </div>
+</body>
+<script src="js/logica.js"></script>
+
+</html>

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="imagens/logo2.jpg" type="image/x-icon">
+    <title>Página Inicial</title>
+</head>
+
+<body>
+    <header class="tit">
+        <div class="imagem">
+            <img class="logo" src="imagens/logo.png" alt="Logo">
+        </div>
+
+        <h1 class="titulo2">Página Inicial</h1>
+
+        <div class="usuario2">
+            <img class="usu" src="imagens/semfoto.png" alt="Usuario">
+            <div class="info">
+                <span><b>Nome:</b> Usuario1</span>
+                <span><b>Email:</b> usuario1@gmail.com</span>
+            </div>
+            <button onclick="sair()">Sair</button>
+    </header>
+
+    <div>
+        <h2> O que somos? </h2>
+        <p>
+            Este site é uma ferramenta incrível para estudantes que estão se preparando para o
+            vestibular. Nele, você encontrará uma ampla variedade de provas de diferentes disciplinas, todas elaboradas
+            por especialistas e com o objetivo de simular o formato e a dificuldade das provas reais. A plataforma
+            oferece um ambiente interativo, no qual você pode selecionar a área de conhecimento desejada e escolher
+            entre questões de múltipla escolha, dissertativas ou até mesmo realizar simulações completas de provas. Além
+            disso, o site também disponibiliza correções automáticas e feedback detalhado, permitindo que você
+            identifique suas áreas de maior dificuldade e foque seus estudos de maneira eficiente. Com essa ferramenta,
+            você terá a oportunidade de praticar e aprimorar seus conhecimentos, aumentando sua confiança e chances de
+            sucesso no vestibular.
+        </p>
+        <p>
+            Em resumo, esse site oferece um ambiente virtual completo para que você possa se preparar de maneira
+            eficiente e assertiva para o vestibular. Com sua ampla gama de provas, feedback detalhado e correções
+            automáticas, você terá todas as ferramentas necessárias para identificar suas habilidades e pontos fracos.
+            Utilize essa plataforma como uma aliada no seu processo de estudos, adquirindo experiência e confiança para
+            enfrentar as provas reais com maior tranquilidade. Aproveite essa oportunidade valiosa para alcançar seu
+            objetivo de ingressar na universidade dos seus sonhos.
+        </p>
+    </div>
+    <div>
+        <h2> Objetivo </h2>
+        <p>
+            O objetivo principal deste site é fornecer aos estudantes uma plataforma abrangente e eficiente para a
+            preparação do vestibular. Nossa missão é auxiliar os estudantes a alcançarem seu máximo potencial por meio
+            de recursos e ferramentas de estudo de alta qualidade.
+        </p>
+        <p>
+            Nosso site visa oferecer um ambiente virtual completo, no qual os estudantes podem acessar um banco de
+            provas diversificado, simular situações reais de avaliação e obter feedback detalhado para aprimorar seu
+            desempenho. Queremos que os estudantes se sintam confiantes e preparados para enfrentar os desafios do
+            vestibular, desenvolvendo suas habilidades e conhecimentos nas diversas disciplinas exigidas.
+        </p>
+    </div>
+    <div class="cont">
+        <div class="mate">
+            <h2>Nossas máterias Disponiveis:</h2>
+            <ul>
+                <li>Matemática</li>
+                <li>Português</li>
+                <li>Ciências</li>
+                <li>História</li>
+                <li>Geografia</li>
+                <li>Inglês</li>
+            </ul>
+        </div>
+        <div class="esta">
+            <h2>Como funciona o sistema de Estatisticas</h2>
+            <p> Aqui você encontrará um ambiente dedicado ao estudo e preparação para
+                vestibulares, e uma das funcionalidades que oferecemos é a possibilidade de acompanhar suas estatísticas
+                de desempenho. </p>
+
+            <p>Ao utilizar nosso site, você terá acesso a informações valiosas sobre seu progresso nos estudos. Nós
+                registramos automaticamente a quantidade de provas que você já fez, quantas questões você acertou e
+                quantas você errou. Esses dados são essenciais para que você possa avaliar seu desempenho e identificar
+                áreas em que precisa se concentrar mais. </p>
+
+            <p>Além disso, nosso sistema também calcula o tempo médio que você leva para concluir cada prova. Essa
+                informação é útil para que você possa administrar melhor o seu tempo de estudo e se preparar
+                adequadamente para a duração real das provas.</p>
+
+            <p>Ao visualizar suas estatísticas, você poderá monitorar seu progresso ao longo do tempo. Identificar o
+                número de provas feitas, a quantidade de questões acertadas e erradas e o tempo médio de cada prova
+                permitirá que você acompanhe seu desenvolvimento, identifique áreas de melhoria e celebre suas
+                conquistas.</p>
+
+            <p>Estamos comprometidos em fornecer a você informações precisas e relevantes para auxiliar sua preparação
+                no vestibular. Acompanhar suas estatísticas é uma forma eficaz de medir seu progresso e direcionar seus
+                esforços de estudo.</p>
+        </div>
+    </div>
+
+
+    <footer>
+        <input type="button" id="esq" class="quest" value="Questões" onclick="quest()">
+        <input type="button" id="dir" class="est" value="Estatisticas" onclick="est()">
+    </footer>
+
+</body>
+<script src="js/logica.js"></script>
+
+</html>

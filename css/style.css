@@ -1,0 +1,490 @@
+.tit {
+    display: flex;
+    align-items: center;
+    background-color: rgba(48, 15, 233, 0.521);
+}
+
+.tit button {
+    height: 30px;
+    width: 160px;
+}
+
+.tit .botao {
+    flex-grow: 1;
+    margin-left: 600px;
+}
+
+.tit .logo {
+    height: 200px;
+    width: 200px;
+    margin-left: 50px;
+}
+
+.titulo {
+    font-size: 46px;
+    color: white;
+    margin-left: 310px;
+}
+
+.titulo3 {
+    font-size: 46px;
+    color: white;
+    margin-left: 290px;
+}
+
+.titulo2 {
+    font-size: 46px;
+    color: white;
+    margin-left: 270px;
+}
+
+.tit .usuario {
+    margin-left: 240px;
+    align-items: center;
+}
+
+.tit .usuario2 {
+    margin-left: 180px;
+    align-items: center;
+}
+
+.tit .usu {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+
+.tit .info {
+    float: right;
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+p {
+    font-size: 20px;
+}
+
+h2 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.conteiner_1 h2 {
+    margin-left: -25px;
+}
+
+input[type="button"] {
+    font-size: 20px;
+    background-color: rgba(47, 51, 125);
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    height: 80px;
+    width: 150px;
+    margin-right: 100px;
+    border: none;
+}
+
+.usuario {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.usuario2 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.usuario3 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 220px;
+}
+
+.usuario2 button {
+    margin-left: 180px;
+    margin-top: 15px;
+}
+
+.usuario3 button {
+    margin-left: 180px;
+    margin-top: 15px;
+}
+
+.usuario button {
+    margin-left: 180px;
+    margin-top: 15px;
+}
+
+.pb {
+    margin-top: 20px;
+}
+
+.pc {
+    font-size: 60px;
+}
+
+input[type="button"]:hover {
+    background-color: rgb(23, 32, 146);
+}
+
+.usuario span {
+    font-size: 20px;
+}
+
+.usuario2 span {
+    font-size: 20px;
+}
+
+.usuario3 span {
+    font-size: 20px;
+}
+
+.prova h1 {
+    color: rgba(47, 21, 124);
+}
+
+.quest {
+    background-image: url("/imagens/icone.png");
+    background-repeat: no-repeat;
+    background-size: 35px;
+    background-position: center 10px;
+    padding-top: 40px;
+}
+
+.est {
+    background-image: url("/imagens/estatisticas.png");
+    background-repeat: no-repeat;
+    background-size: 50px;
+    background-position: center 10px;
+    padding-top: 40px;
+}
+
+.home {
+    background-image: url("/imagens/casa.png");
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: center 10px;
+    padding-top: 40px;
+}
+
+.mostpro {
+    display: none;
+    height: 320px;
+    width: 200px;
+    overflow: auto;
+    word-wrap: break-word;
+    padding: 10px;
+}
+
+.conteiner {
+    overflow: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+    display: flex;
+}
+
+.conteiner_1 {
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    justify-items: flex-start;
+    width: 320px;
+}
+
+
+.conteiner_2 {
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    margin-left: 200px;
+}
+
+.mat {
+    display: block;
+    width: 150px;
+    height: 50px;
+    padding: 10px;
+    margin-right: 0px;
+    text-align: center;
+    opacity: 70%;
+    margin-left: 75px;
+}
+
+
+.materia {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 250px;
+    margin-left: 30px;
+}
+
+
+.materia h3 {
+    font-size: 20px;
+}
+
+.mostpro h3 {
+    color: white;
+}
+
+.mostpro li {
+    color: white;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: rgba(48, 15, 233, 0.521);
+    margin-top: 30px;
+}
+
+#dir {
+    margin-right: 50px;
+}
+
+#esq {
+    margin-left: 50px;
+}
+
+footer span {
+    font-size: 25px;
+    padding: 20px;
+}
+
+ul {
+    font-size: 20px;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+li {
+    padding: 5px;
+}
+
+button {
+    font-size: 15px;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 130px;
+    margin-left: 20px;
+}
+
+button:hover {
+    background-color: rgba(47, 51, 124);
+    color: white;
+}
+
+.opcao {
+    display: block;
+    font-size: 30px;
+    margin-left: 10px;
+    position: relative;
+}
+
+
+
+input[type="radio"] {
+    height: 30px;
+    margin-left: 20px;
+}
+
+.correct {
+    background-color: rgba(0, 245, 0, 0.5);
+    /* Cor de fundo quando o input estiver selecionado */
+}
+
+.incorrect {
+    background-color: rgba(255, 0, 0, 0.5);
+    /* Cor de fundo quando o input estiver selecionado */
+}
+
+.prova h3 {
+    font-size: 30px;
+}
+
+.prova button {
+    margin-top: 10px;
+    margin-left: 0px;
+    margin-right: 10px;
+}
+
+
+.refazer {
+    float: right;
+    display: none;
+}
+
+
+.prova {
+    overflow: auto;
+    display: none;
+}
+
+.esta {
+    float: right;
+    margin-left: 150px;
+}
+
+.mate {
+    float: left;
+    width: 300px;
+    margin-left: 40px;
+}
+
+.cont {
+    display: flex;
+    overflow: auto;
+}
+
+.perg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sim {
+    float: left;
+    margin-right: 60px;
+}
+
+.não {
+    float: right;
+    margin-left: 60px;
+}
+
+.login h3 {
+    margin-bottom: 5px;
+    margin-left: 25px;
+    margin-top: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 400px;
+    border: solid 1px gray;
+}
+
+.login input {
+    width: 85%;
+    height: 25px;
+    margin-left: 25px;
+    margin-bottom: 5px;
+}
+
+.login input[type="password"] {
+    margin-bottom: 20px;
+}
+
+.login button {
+    border-radius: 0%;
+    width: 87%;
+    margin-left: 25px;
+    height: 35px;
+    margin-bottom: 20px;
+}
+
+.tela_login h2 {
+    margin-bottom: 70px;
+}
+
+.tit_log {
+    border-bottom: 1px solid gray;
+    margin-bottom: 20px;
+}
+
+.tit_log h2 {
+    margin: 0;
+    margin-bottom: 5px;
+    font-size: 40px;
+    color: blue;
+}
+
+.cadastro {
+    display: flex;
+    background-color: rgb(185, 185, 185);
+    justify-content: flex-end;
+    align-items: center;
+    border: 1px solid gray;
+}
+
+.cadastro p {
+    font-size: 20px;
+}
+
+.cadastro button {
+    margin-bottom: 0;
+    width: 130px;
+    margin-right: 25px;
+}
+
+.tela_login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tela_login h1 {
+    color: rgba(47, 21, 124);
+    font-size: 40px;
+}
+
+.tela_login h2 {
+    color: rgba(47, 21, 124);
+    font-size: 36px;
+}
+
+.parte_principal {
+    display: flex;
+    overflow: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.parte1 .parte2 {
+    float: left;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.parte1 {
+    margin-right: 100px;
+}
+
+.parte2 {
+    margin-left: 100px;
+}
+
+.parte1 h3 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.parte2 h3 {
+    text-align: center;
+    font-size: 30px;
+}

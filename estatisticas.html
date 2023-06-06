@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="imagens/logo2.jpg" type="image/x-icon">
+    <title>Estatisticas</title>
+</head>
+
+<body>
+    <header class="tit">
+        <div class="imagem">
+            <img class="logo" src="imagens/logo.png" alt="Logo">
+        </div>
+
+        <h1 class="titulo3"> Estatisticas </h1>
+
+        <div class="usuario3">
+            <img class="usu" src="imagens/semfoto.png" alt="Usuario">
+            <div class="info">
+                <span><b>Nome:</b> Usuario1</span>
+                <span><b>Email:</b> usuario1@gmail.com</span>
+            </div>
+            <button onclick="sair()">Sair</button>
+        </div>
+
+    </header>
+
+    <div class="parte_principal">
+        <div class="parte1">
+            <h2>Provas feitas</h2>
+            <h3 id="provas_feitas">0</h3>
+
+            <h2>Porcentagem</h2>
+            <h3 id="porcentagem">0</h3>
+        </div>
+        <div class="parte2">
+            <h2>Questões acertadas</h2>
+            <h3 id="certas">0</h3>
+            <h2>Questões erradas</h2>
+            <h3 id="erradas">0</h3>
+        </div>
+    </div>
+
+
+
+
+    <footer>
+        <input type="button" id="esq" class="home" value="Home" onclick="home()">
+        <input type="button" id="dir" class="quest" value="Questões" onclick="quest()">
+    </footer>
+</body>
+<script src="js/logica.js"></script>
+
+</html>
